@@ -1,10 +1,20 @@
 import React from 'react';
-import { View,Text } from 'react-native';
+import { View,Text, StyleSheet } from 'react-native';
 
 export const BoxObjectModel = () => {
   return (
-    <View>
-        <Text>BoxObjectModel</Text>
+    <View style={styles.container}>
+        <Text style={styles.title}>BoxObjectModel</Text>
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+    container:{
+        flex:1,
+        backgroundColor:'red',
+    },
+    title:{
+        fontSize:50,
+    },
+});
