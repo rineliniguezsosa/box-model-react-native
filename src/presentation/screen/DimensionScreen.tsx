@@ -1,10 +1,10 @@
 import React from 'react';
-import { View,Text,StyleSheet } from 'react-native';
+import { View,StyleSheet } from 'react-native';
 
 export const DimensionScreen = () => {
   return (
     <View style={styles.container}>
-        <Text>DimensionScreen</Text>
+        <View style={styles.blueBox}>DimensionScreen</View>
     </View>
   );
 };
@@ -13,5 +13,10 @@ const styles = StyleSheet.create({
     container:{
         width:'100%',
         backgroundColor:'red',
+    },
+    blueBox:{
+        backgroundColor:'blue',
+        height:'50%',
+        width:'50%',
     },
 });
