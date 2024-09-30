@@ -14,4 +14,11 @@ const styles = StyleSheet.create({
         flex:1,
         backgroundColor:'green',
     },
+    bluebox:{
+        width:100,
+        height:100,
+        backgroundColor:'blue',
+        borderWidth:10,
+        borderColor:'white',
+    },
 });
