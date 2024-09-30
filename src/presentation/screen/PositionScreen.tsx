@@ -17,6 +17,8 @@ const styles = StyleSheet.create({
     container:{
         flex:1,
         backgroundColor:'green',
+        justifyContent:'center',
+        alignItems:'center',
     },
     bluebox:{
         width:100,
