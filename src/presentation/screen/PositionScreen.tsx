@@ -26,6 +26,8 @@ const styles = StyleSheet.create({
         backgroundColor:'blue',
         borderWidth:10,
         borderColor:'white',
+        position:'relative',
+        top:0,
     },
     orangebox:{
         width:100,
@@ -33,5 +35,7 @@ const styles = StyleSheet.create({
         backgroundColor:'orange',
         borderWidth:10,
         borderColor:'white',
+        top:0,
+        left:-100,
     },
 });
