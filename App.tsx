@@ -1,11 +1,12 @@
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
-import { SafeAreaView,Text } from 'react-native';
+import { SafeAreaView } from 'react-native';
+import { BoxObjectModel } from './src/presentation/screen/BoxObjectModel'; 
 
 export const App = () => {
   return (
     <SafeAreaView style={{flex:1}}>
-      <Text>App</Text>
+      <BoxObjectModel/>
     </SafeAreaView>
   );
 };
