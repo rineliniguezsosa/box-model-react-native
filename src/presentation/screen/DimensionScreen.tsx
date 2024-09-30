@@ -6,16 +6,19 @@ export const DimensionScreen = () => {
   return (
     <View>
         <View style={styles.container}>
-            <View style={styles.blueBox}>DimensionScreen</View>
+            {/* Wrap text inside a Text component */}
+            <View style={{...styles.blueBox,width:width * 0.6}} />
         </View>
-        <Text>w: {width}, h: {height}</Text>
+        {/* comments */}
+        <Text>h:{height}, w:{width}</Text>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
     container:{
-        width:'100%',
+        width:300,
+        height:300,
         backgroundColor:'red',
     },
     blueBox:{
