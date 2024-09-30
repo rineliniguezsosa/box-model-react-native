@@ -5,6 +5,8 @@ export const BoxObjectModel = () => {
   return (
     <View style={styles.container}>
         <Text style={styles.title}>BoxObjectModel</Text>
+
+        <View style={styles.purpleBox} />
     </View>
   );
 };
@@ -19,5 +21,12 @@ const styles = StyleSheet.create({
         paddingHorizontal:30,
         paddingVertical:10,
         borderWidth:10,
+    },
+    purpleBox:{
+        height:30,
+        backgroundColor:'purple',
+        marginVertical:50,
+        marginHorizontal:20,
+        padding:5,
     },
 });
