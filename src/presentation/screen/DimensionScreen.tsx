@@ -4,9 +4,10 @@ import { View,StyleSheet, useWindowDimensions,Text } from 'react-native';
 export const DimensionScreen = () => {
     const { width,height } = useWindowDimensions();
   return (
-    <View style={styles.container}>
-        <View style={styles.blueBox}>DimensionScreen</View>
-
+    <View>
+        <View style={styles.container}>
+            <View style={styles.blueBox}>DimensionScreen</View>
+        </View>
         <Text>w: {width}, h: {height}</Text>
     </View>
   );
