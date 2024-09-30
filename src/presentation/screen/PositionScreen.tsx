@@ -1,10 +1,14 @@
 import React from 'react';
-import { View,Text, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 
 export const PositionScreen = () => {
   return (
     <View style={styles.container}>
-        <Text>PositionScreen</Text>
+
+        <View style={styles.bluebox}/>
+
+        <View style={styles.orangebox}/>
+
     </View>
   );
 };
@@ -18,6 +22,13 @@ const styles = StyleSheet.create({
         width:100,
         height:100,
         backgroundColor:'blue',
+        borderWidth:10,
+        borderColor:'white',
+    },
+    orangebox:{
+        width:100,
+        height:100,
+        backgroundColor:'orange',
         borderWidth:10,
         borderColor:'white',
     },
