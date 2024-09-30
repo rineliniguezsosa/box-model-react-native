@@ -1,10 +1,13 @@
 import React from 'react';
-import { View,StyleSheet } from 'react-native';
+import { View,StyleSheet, useWindowDimensions,Text } from 'react-native';
 
 export const DimensionScreen = () => {
+    const { width,height } = useWindowDimensions();
   return (
     <View style={styles.container}>
         <View style={styles.blueBox}>DimensionScreen</View>
+
+        <Text>w: {width}, h: {height}</Text>
     </View>
   );
 };
