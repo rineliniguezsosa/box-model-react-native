@@ -1,10 +1,12 @@
 import React from 'react';
-import { View, Text,StyleSheet } from 'react-native';
+import { View,StyleSheet } from 'react-native';
 
 export const FlexScreen = () => {
   return (
     <View style={styles.container}>
-        <Text>FlexScreen</Text>
+        <View style={styles.box1} />
+        <View style={styles.box2} />
+        <View style={styles.box3} />
     </View>
   );
 };
