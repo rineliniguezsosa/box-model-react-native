@@ -15,7 +15,9 @@ const styles = StyleSheet.create({
     container:{
         flex:1,
         // backgroundColor:'yellow',
-        flexDirection:'column',
+        justifyContent:'flex-end',
+        flexDirection:'row',
+        alignItems:'flex-end',
     },
     box:{
         width:100,
