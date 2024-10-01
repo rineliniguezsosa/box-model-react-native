@@ -23,15 +23,15 @@ const styles = StyleSheet.create({
     },
     box1:{
         backgroundColor:'red',
-        flex:1,
+        // flex:1,
     },
     box2:{
         backgroundColor:'green',
-        flex:2,
+        // flex:2,
     },
     box3:{
         backgroundColor:'blue',
-        flex:3,
+        // flex:3,
     },
 });
 
