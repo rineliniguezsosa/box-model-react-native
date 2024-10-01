@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
     },
     box2:{
         backgroundColor:'green',
+        alignSelf:'flex-end',
         // flex:2,
     },
     box3:{
