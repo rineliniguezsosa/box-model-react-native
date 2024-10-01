@@ -16,6 +16,10 @@ const styles = StyleSheet.create({
         flex:1,
         backgroundColor:'yellow',
     },
+    box:{
+        width:100,
+        height:100,
+    },
     box1:{
         backgroundColor:'red',
         flex:1,
