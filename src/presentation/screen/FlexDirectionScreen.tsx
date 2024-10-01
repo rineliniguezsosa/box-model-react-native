@@ -4,9 +4,9 @@ import { View,StyleSheet } from 'react-native';
 export const FlexDirectionScreen = () => {
   return (
     <View style={styles.container}>
-        <View style={styles.box1} />
-        <View style={styles.box2} />
-        <View style={styles.box3} />
+        <View style={[ styles.box,styles.box1 ]} />
+        <View style={[ styles.box,styles.box2 ]} />
+        <View style={[ styles.box,styles.box3 ]} />
     </View>
   );
 };
@@ -14,7 +14,8 @@ export const FlexDirectionScreen = () => {
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor:'yellow',
+        // backgroundColor:'yellow',
+        flexDirection:'column',
     },
     box:{
         width:100,
