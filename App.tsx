@@ -5,12 +5,13 @@ import { SafeAreaView } from 'react-native';
 // import { DimensionScreen } from './src/presentation/screen/DimensionScreen';
 // import { PositionScreen } from './src/presentation/screen/PositionScreen';
 // import { FlexScreen } from './src/presentation/screen/FlexScreen';
-import { FlexDirectionScreen } from './src/presentation/screen/FlexDirectionScreen';
+// import { FlexDirectionScreen } from './src/presentation/screen/FlexDirectionScreen';
+import { HomeWorkScreen } from './src/presentation/screen/HomeWorkScreen';
 
 export const App = () => {
   return (
     <SafeAreaView style={{flex:1}}>
-      <FlexDirectionScreen/>
+      <HomeWorkScreen/>
     </SafeAreaView>
   );
 };
