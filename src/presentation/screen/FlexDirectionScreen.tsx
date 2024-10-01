@@ -33,6 +33,7 @@ const styles = StyleSheet.create({
     },
     box3:{
         backgroundColor:'blue',
+        alignSelf:'center',
         // flex:3,
     },
 });
